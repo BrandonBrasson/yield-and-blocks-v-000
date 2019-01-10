@@ -7,7 +7,7 @@ def hello_t(array)
   end
 array
 end
-
+end
 # call your method here!
 
 hello_t(["Tim", "Tom", "Jim"]) do |name|
@@ -16,4 +16,4 @@ hello_t(["Tim", "Tom", "Jim"]) do |name|
     puts "Hey! No block was given!"
   end
 end
-end
+
