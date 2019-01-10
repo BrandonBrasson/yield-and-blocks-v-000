@@ -7,7 +7,7 @@ array
 end
 # call your method here!
 
-"Tim", "Tom", "Jim"].each do |name|
+hello_t(["Tim", "Tom", "Jim"]) do.each.index |name|
   if name.start_with?("T")
     puts "Hi, #{name}"
   end
