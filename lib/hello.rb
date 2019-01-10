@@ -3,6 +3,7 @@ def hello_t(array)
   while i < array.length
     if block_given? # block is given
      yield(array[i])
+    return []
     i = i + 1
   end
 array
