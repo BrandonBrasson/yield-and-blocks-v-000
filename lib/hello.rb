@@ -1,7 +1,7 @@
 def hello_t(array)
   i = 0
   while i < array.length
-    yield row
+    yield (array[i])
  end
     i = i + 1
   end if block_given?
