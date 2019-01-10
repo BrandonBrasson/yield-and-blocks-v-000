@@ -1,9 +1,10 @@
 def hello_t(array)
   i = 0
   while i < array.length
-       no_block_given? yield(array[i])
+    yield row
+ end
     i = i + 1
-  end
+  end if block_given?
 array
 end
 # call your method here!
