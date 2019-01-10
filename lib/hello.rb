@@ -16,4 +16,3 @@ hello_t(["Tim", "Tom", "Jim"]) do |name|
     puts "Hey! No block was given!"
   end
 end
-
